@@ -21,59 +21,58 @@
     />
   </head>
   <body>
-    <header class="primeiro">
+    <header>
       <nav>
         <ul>
           <li>
             <img src="./img/tres- traços.png" alt="" />
             <img src="./img/youtube 1.png" alt="logo do youtube" />
           </li>
-          <li><img src="./img/lupa.png" alt="clicou pesquisou" /></li>
+          <li>
+            <input type="text" placeholder="Pesquisar..." class="pesquisa" />
+          </li>
           <li>
             <img src="./img/video.png" alt="camera" />
             <img src="./img/sino.png" alt="sino" />
-            <img src="./img/Avatar.png" alt="pessoa" />
+            <img id="ft-redonda" src="./img/foto.jpeg" alt="pessoa" />
           </li>
         </ul>
       </nav>
     </header>
-    <section class="container">
-      <article class="video-principal">
+    <section>
+      <article>
         <iframe
-          width="502"
-          height="275"
-          src="https://www.youtube.com/embed/4qZNuUtZTL0?si=Im9jEN0dn3iwTXRY"
-          title="Aniversário de 5 anos do DIO PRO | Lançamento do DIO PRO Vitalício"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/7HIL7BNM9s0?si=fAouCdTGY1IdF_7c"
+          title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
-        >
-        </iframe>
+        ></iframe>
 
         <header>
-          <h1>
-            Aniversário de 5 anos do DIO PRO | Lançamento do DIO PRO Vitalício
-          </h1>
-          <p>5,1 mil visualizações há 3 sem. #dio</p>
+          <h1>Entenda LÓGICA DE PROGRAMAÇÃO e ALGORITMO</h1>
+          <p>12 mil visualizações há 4 meses #flexbox ...mais</p>
         </header>
         <div class="video-infos">
           <div class="canal">
-            <img src="./img/Channel Avatar.png" alt="Avatar do canal DIO" />
+            <img src="./img/log-dev.png" alt="Avatar do curso DevClub" />
 
-            <h2>DIO</h2>
-            <p>83,3 mil inscritos</p>
+            <h3>DevClub | Progamação</h3>
+            <p>193 mil inscritos</p>
 
             <button>Inscreva-se</button>
           </div>
 
           <div class="acoes">
             <div class="legal">
-              <img src="./img/legal.png" alt="Gostei" />
-              <h3>2 mil</h3>
+              <img src="./img/legal.png" alt="Gostei" id="gostei" />
+              <h5>0</h5>
+              <h3>1,2 mil</h3>
               <p>982</p>
-              <img src="./img/nao-lega.png" alt="Não gostei" />
-              <h3>Não gostei</h3>
+              <img src="./img/nao-lega.png" alt="Não gostei" id="nao-gostei" />
             </div>
             <div class="compartilhar">
               <img src="./img/compartilha.png" alt="Compartilhar vídeo" />
@@ -85,30 +84,80 @@
             </div>
           </div>
         </div>
-        <section class="comente">
-          <div class="comentarios">
-            <h2><b>Comentários</b> 130</h2>
-            <input type="text" placeholder="Adicione um comentário" />
-          </div>
-        </section>
+
         <section class="descricao">
           <p>
-            5.182 visualizações • Transmitido ao vivo em 5 de ago. de 2025
+            13 mil visualizações há 5 meses #html #css #coding Já te disseram
+            que é difícil aprender programação? Nesse vídeo eu vou te mostrar a
+            maneira mais fácil de entender a lógica de programação e acredite, o
+            que você vai aprender aqui hoje, você NUNCA MAIS vai esquecer.
             <br />
-            #DIO #Programação #Tecnologia <br /><br />
-            Acesso a bootcamps ilimitados PARA SEMPRE! Matrículas ilimitadas com
-            acesso a todos os bootcamps da DIO das empresas mais inovadoras do
-            mundo. Acesso vitalício a mais de 1.750 cursos, bootcamps, projetos
-            e formações nas áreas de back-end, front-end, mobile, games, data,
-            inteligência artificial & cloud, e futuros lançamentos.
+            📚 Perfeito para:
+            <br />
+            Iniciantes em programação web Quem quer fazer transição de carreira
+            para programação
+            <br />
+            <br />
+            ❓ Dúvidas? Deixe nos comentários! _______
+            <br />
+            → Inscreva-se no Canal:
+            <a href="https://bit.ly/3h1xtJ5">https://bit.ly/3h1xtJ5</a>
+            <br />
+            → Loja do canal:
+            <a href="https://loja.devclub.com.br/devclub"
+              >https://loja.devclub.com.br/devclub</a
+            >
+            <br />
+            → Nosso suporte:
+            <a href="https://go.rodolfomori.com.br/suporte"
+              >https://go.rodolfomori.com.br/suporte</a
+            >
+            <br />
+            <br />
           </p>
+          <div class="meus-btn">
+            <button class="meu-btn">
+              <img
+                src="./img/log-inst.avif"
+                alt="logo do instagram"
+                class="img1"
+              />
+              <a href="https://www.instagram.com/rodolfomorii/" class="meu-link"
+                >instagran</a
+              >
+            </button>
+            <button class="meu-btn1">
+              <img
+                src="./img/likedin.jpg"
+                alt="logo do linkedin"
+                class="img2"
+              />
+              <a
+                href="https://www.linkedin.com/in/rodolfomori/"
+                class="meu-link1"
+                >linkedin</a
+              >
+            </button>
+          </div>
         </section>
       </article>
+      <section class="comente">
+        <div class="comentarios">
+          <h2>Comentários</h2>
 
+          <input
+            type="text"
+            placeholder="Adicione seu comentário"
+            id="meu-input"
+          />
+          <button onclick="cliqueiNoBotao()">Enviar</button>
+        </div>
+      </section>
       <aside class="sugestoes-videos">
         <img src="./img/tudo.png" alt="Mais opções de vídeos" />
       </aside>
     </section>
+    <h4>Nenhum comentário</h4>
 
     <figure>
       <div class="video-opcional">
