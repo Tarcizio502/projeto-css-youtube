@@ -84,19 +84,24 @@
     background-color: rgb(215 209 209);
     border-radius: 20px;
   }
+  .legal h5 {
+    font-size: 14px;
+  }
   .legal h3 {
     display: none;
   }
+
   .legal img {
     width: 16px;
     padding: 4px 9px;
   }
   .legal p {
-    border-right-style: groove;
+    display: none;
+    /* border-right-style: groove;
     padding: 0px 2px;
     font-size: 14px;
     font-weight: 600;
-    color: #6b6161;
+    color: #6b6161;*/
   }
   /*.nao-legal img{ 
   margin-right: 0;
@@ -153,7 +158,6 @@ display: none;
   .comentarios h2 {
     display: inline-block;
     padding: 10px 9px;
-    color: #b7aaaa;
     font-size: 13px;
     font-weight: 100;
   }
@@ -173,7 +177,7 @@ display: none;
     background-color: #f5eeee;
   }
   .comentarios button {
-    margin: 4px 9px;
+    margin: 12px 9px 0px;
     width: 61px;
     height: 20px;
     font-size: 11px;
