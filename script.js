@@ -9,15 +9,15 @@ const gostei = document.querySelector("#gostei");
 const naoGostei = document.querySelector("#nao-gostei");
 const h3 = document.querySelector("h5");
 
-let contador = 0; // começa em 0
+let contador = 0;
 
 function clicGostei() {
-  contador++; // soma 1
+  contador++;
   h3.textContent = contador;
 }
 
 function clicNaoGostei() {
-  contador--; // tira 1
+  contador--;
   h3.textContent = contador;
 }
 
